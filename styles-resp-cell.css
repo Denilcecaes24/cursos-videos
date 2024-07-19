@@ -1,0 +1,138 @@
+@media (max-width: 969px) {
+    
+    .cont_hj2 {
+        display: none;
+    }
+
+    
+    .container_principal{
+        width: 95%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0;
+        background-color: ;
+    }
+
+
+    .cont_hj1{
+        width: 100%;
+        max-width: 850px;
+        height: auto;   
+        margin: 0 auto;
+        padding: 16px 0;
+        display: flex;
+        flex-direction: column;
+        background-color:;
+    }
+
+
+    .container-menu {
+        width: 95%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        background-color: ;
+        position: relative;
+    }
+
+    .menu-float {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        background-color: #eeeeee;
+        display: none;
+        position: absolute;
+        top: 1;
+        left: 0;
+        z-index: 99; /* Asegúrate de que esté detrás de la barra */
+        border: 1px solid gray;
+    }
+
+    .menu-float > .box-sb-princ {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+    }
+
+    .menu-float > .box-sb {
+        width: 100%;
+        height: auto;
+        background-color: ;
+        padding: 16px;
+    }
+
+    .menu-float > .box-sb > .list_sb {
+        width: 100%;
+        height: auto;
+        background-color: ;
+        padding: 0;
+        margin: 4px 0;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        cursor: pointer;
+    }
+
+    .menu-float .list_sb .opc_list1 .icon_sty_hover {
+        display: none; /* Oculta el icono de flecha derecha por defecto */
+    }
+
+    .menu-float .list_sb:hover .opc_list1 .icon_sty {
+        display: none; /* Oculta el icono de play al pasar el mouse */
+    }
+
+    .menu-float .list_sb:hover .opc_list1 .icon_sty_hover {
+        display: inline-block; /* Muestra el icono de flecha derecha al pasar el mouse */
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .menu-float .opc_list1 {
+        background-color: ;
+        width: 5%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-float > .icon_sty {
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .menu-float .opc_list2 {
+        background-color: ;
+        width: 80%;
+        height: auto;
+    }
+
+    .menu-float > .list_sb:hover .opc_list2 .link-none-title {
+        color: orange;
+    }
+
+    .menu-float .opc_list3 {
+        background-color: ;
+        width: 10%;
+        height: auto;
+        text-align: end;
+    }
+
+    .menu-float > .link-none-title {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu-float > .link-none-time {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    
+}
